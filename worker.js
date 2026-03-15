@@ -358,18 +358,18 @@ const HTML_TEMPLATE = `
     .login-box {
       width: 100%;
       max-width: 400px;
-      padding: 40px;
+      padding: 40px 40px 24px;
       text-align: center;
       animation: fadeIn 0.5s ease-out;
     }
     .login-box h1 { margin-bottom: 8px; font-size: 1.5rem; }
-    .login-box p { color: var(--text-muted); margin-bottom: 30px; font-size: 0.9rem; }
+    .login-box p { color: var(--text-muted); margin-bottom: 24px; font-size: 0.9rem; }
     
     .error-msg {
       color: var(--danger);
       font-size: 0.875rem;
-      margin-top: 12px;
-      min-height: 20px;
+      margin-top: 8px;
+      min-height: 18px;
     }
 
     /* Dashboard View */
